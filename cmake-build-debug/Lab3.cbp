@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/leti/Year 2/AISD/Lab3/Tree.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/leti/Year 2/AISD/Lab3/Tree.h">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="D:/leti/Year 2/AISD/Lab3/main.cpp">
 			<Option target="Lab3"/>
 		</Unit>

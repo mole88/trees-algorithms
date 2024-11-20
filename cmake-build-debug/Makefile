@@ -122,6 +122,33 @@ Lab3/fast:
 	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/build
 .PHONY : Lab3/fast
 
+Tree.obj: Tree.cpp.obj
+
+.PHONY : Tree.obj
+
+# target to build an object file
+Tree.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Tree.cpp.obj
+.PHONY : Tree.cpp.obj
+
+Tree.i: Tree.cpp.i
+
+.PHONY : Tree.i
+
+# target to preprocess a source file
+Tree.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Tree.cpp.i
+.PHONY : Tree.cpp.i
+
+Tree.s: Tree.cpp.s
+
+.PHONY : Tree.s
+
+# target to generate assembly for a file
+Tree.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Tree.cpp.s
+.PHONY : Tree.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Lab3
 	@echo ... edit_cache
+	@echo ... Tree.obj
+	@echo ... Tree.i
+	@echo ... Tree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

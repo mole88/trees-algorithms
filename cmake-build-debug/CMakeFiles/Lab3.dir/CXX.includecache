@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/leti/Year 2/AISD/Lab3/Tree.cpp
+Tree.h
+D:/leti/Year 2/AISD/Lab3/Tree.h
+iostream
+-
+cstring
+-
+
+D:/leti/Year 2/AISD/Lab3/Tree.h
+
+D:/leti/Year 2/AISD/Lab3/main.cpp
+iostream
+-
+Tree.h
+D:/leti/Year 2/AISD/Lab3/Tree.h
+ctime
+-
+
